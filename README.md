@@ -40,8 +40,6 @@ I created [mayahazarika.com](https://mayahazarika.com) to share my work!!!! Chec
 
 </table>
 
-<br/>
-
 <img src="./assets/stripe.svg" width="100%" />
 
 </div>
