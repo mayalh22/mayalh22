@@ -27,8 +27,6 @@ I created [mayahazarika.com](https://mayahazarika.com) to share my work!!!! Chec
 </tr>
 </table>
 
-<br/>
-
 <img src="https://raw.githubusercontent.com/mayalh22/mayalh22/master/assets/stripe.svg" width="100%" />
 
 </div>
