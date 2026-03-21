@@ -8,7 +8,7 @@ I created [mayahazarika.com](https://mayahazarika.com) to share my work. Check i
 
 I *also* really enjoy:
 
-- Biking: It's not warm often in MA, but when it is, I like listening to music and biking around.  
+- Biking: It's not warm *often* in MA, but when it is, I like listening to music and biking around.  
 - Baking: Especially with oatmeal, coconut, and pear. I'm currently experimenting with popcorn-flavored baked goods!  
 - Watching TV: Specifically reality TV. Lmk if you are a fan of *Survivor*, *Big Brother*, *The Traitors*, or *The Challenge*!  
 - Casual journalism!: Check out [my work for The Swellesley Report](https://theswellesleyreport.com/author/maya-hazarika/) or some of my writing on [Medium](https://medium.com/@maya.l.hazarika).)
@@ -25,5 +25,5 @@ I *also* really enjoy:
 </td>
 </tr>
 </table>
-
+Thanks for visiting my Github! Some of my favorite projects are below. Please please please reach out if you have anything to share/comment!
 <img src="https://raw.githubusercontent.com/mayalh22/mayalh22/master/assets/stripe.svg" width="100%" />
