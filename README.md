@@ -12,7 +12,7 @@
     </td>
     <td>
       <!-- Hackatime stats -->
-      <img src="https://github-readme-stats.hackclub.dev/api/wakatime?username=14606&amp;api_domain=hackatime.hackclub.com&amp;theme=default&amp;custom_title=Hackatime+Stats&amp;layout=compact&amp;cache_seconds=0&amp;langs_count=8" />
+<img src="./badges/hackatime.svg" alt="Hackatime Stats" />
     </td>
   </tr>
 </table>
