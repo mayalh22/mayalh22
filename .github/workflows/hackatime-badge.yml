@@ -23,7 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install node-fetch@2
 
-- name: Generate Hackatime badge
+      # Run script
+      - name: Generate Hackatime badge
         env:
           HACKATIME_SECRET: ${{ secrets.HACKATIME_SECRET }}
         run: node scripts/generate-hackatime-badge.js
