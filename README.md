@@ -15,10 +15,9 @@
 
 
 I make art, write code, and build things about creativity and technology.
-
+<img src="./assets/stripe.svg" width="100%" />
 I created [mayahazarika.com](https://mayahazarika.com) to share my work!!!! Check it out if you want more details about me and what I'm up to.
-
-<br/>
+<img src="./assets/stripe.svg" width="100%" />
 
 
 
