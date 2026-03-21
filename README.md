@@ -1,18 +1,24 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00712a,f26522,ffc80b,005599,ff9b90&height=6&section=header" />
+
+<br/>
+
 # Maya Hazarika
 
 I make art, write code, and build things about creativity and technology.
-I created [mayahazarika.com](https://mayahazarika.com) to share my art, writing, and coding projects — and to make STEAM topics more accessible.
+I created [mayahazarika.com](https://mayahazarika.com) to share my art, writing, and coding projects, and to make STEAM topics more accessible.
 
-</div>
+<br/>
 
----
+Art &nbsp;·&nbsp; Design &nbsp;·&nbsp; Writing &nbsp;·&nbsp; Engineering &nbsp;·&nbsp; STEAM
 
-<div align="center">
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayalh22&layout=compact&langs_count=6&hide_border=true&bg_color=202221&title_color=ffc80b&text_color=fafafa" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayalh22&theme=dark&hide_border=true&background=202221&ring=00712a&fire=f26522&currStreakLabel=ffc80b&sideLabels=fafafa&dates=aaaaaa&stroke=00000000" />
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00712a,f26522,ffc80b,005599,ff9b90&height=6&section=footer" />
 
 </div>
