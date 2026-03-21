@@ -1,0 +1,29 @@
+name: Hackatime Badge
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Run a script to fetch Hackatime stats and generate badge
+      - name: Generate Hackatime badge
+        env:
+          UID: ${{ secrets.HACKATIME_UID }}
+          SECRET: ${{ secrets.HACKATIME_SECRET }}
+        run: |
+          # your script here to fetch stats and output SVG
+          node scripts/generate-hackatime-badge.js
+
+      # Push SVG to repo (so README can use it)
+      - name: Push Badge
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: master
+          folder: ./badges
+          github_token: ${{ secrets.GITHUB_TOKEN }}
