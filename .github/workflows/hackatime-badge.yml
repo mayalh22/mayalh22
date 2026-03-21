@@ -26,8 +26,8 @@ jobs:
       # Run script
       - name: Generate Hackatime badge
         env:
-          UID: ${{ secrets.HACKATIME_UID }}
-          SECRET: ${{ secrets.HACKATIME_SECRET }}
+          HACKATIME_UID: ${{ secrets.HACKATIME_UID }}
+          HACKATIME_SECRET: ${{ secrets.HACKATIME_SECRET }}
         run: node scripts/generate-hackatime-badge.js
 
       # Push SVG to repo
