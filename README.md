@@ -11,8 +11,8 @@
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayalh22&theme=radical&hide_border=true" />
     </td>
     <td>
-      <!-- Hackatime stats via github-readme-stats with Hackatime API domain -->
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=mayalh22&api_domain=waka.hackclub.com&custom_title=Hackatime%20Stats&theme=radical&hide_border=true" />
+      <!-- Hackatime stats -->
+      <img src="https://github-readme-stats.hackclub.dev/api/wakatime?username=14606&api_domain=hackatime.hackclub.com&theme=default&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8" />
     </td>
   </tr>
 </table>
