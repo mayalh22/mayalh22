@@ -2,27 +2,26 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-const uid = process.env.UID;
-const secret = process.env.SECRET;
+const uid = process.env.HACKATIME_UID;  // renamed from UID (reserved in Linux!)
+const secret = process.env.HACKATIME_SECRET;
 
 (async () => {
   try {
-    const res = await fetch(`https://hackatime.hackclub.com/api/users/${uid}`, {
+    const res = await fetch(`https://hackatime.hackclub.com/api/v1/users/${uid}/stats`, {
       headers: { Authorization: `Bearer ${secret}` }
     });
-    if (!res.ok) throw new Error('Failed to fetch Hackatime stats');
+    if (!res.ok) throw new Error(`Failed to fetch Hackatime stats: ${res.status}`);
 
-    const data = await res.json();
+    const json = await res.json();
+    const totalSeconds = json.data?.total_seconds || 0;
+    const totalHours = (totalSeconds / 3600).toFixed(1);
 
-    // Basic SVG badge
-    const svg = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="80">
-        <rect width="300" height="80" fill="#2b2b2b" rx="10" />
-        <text x="150" y="50" font-size="16" fill="white" text-anchor="middle" font-family="sans-serif">
-          Hackatime Hours: ${data.total_hours || 0}h
-        </text>
-      </svg>
-    `;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80">
+  <rect width="300" height="80" fill="#2b2b2b" rx="10" />
+  <text x="150" y="50" font-size="16" fill="white" text-anchor="middle" font-family="sans-serif">
+    Hackatime Hours: ${totalHours}h
+  </text>
+</svg>`;
 
     if (!fs.existsSync('./badges')) fs.mkdirSync('./badges');
     fs.writeFileSync('./badges/hackatime.svg', svg);
