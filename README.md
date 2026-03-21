@@ -11,7 +11,8 @@
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayalh22&theme=radical&hide_border=true" />
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Coding-Hours-informational?style=for-the-badge&logo=visual-studio-code" />
+      <!-- Hackatime stats via github-readme-stats with Hackatime API domain -->
+      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=mayalh22&api_domain=waka.hackclub.com&custom_title=Hackatime%20Stats&theme=radical&hide_border=true" />
     </td>
   </tr>
 </table>
