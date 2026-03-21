@@ -4,24 +4,33 @@ on:
   schedule:
     - cron: '0 */6 * * *' # every 6 hours
   workflow_dispatch:
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      # Run a script to fetch Hackatime stats and generate badge
+      # Install Node dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      # Run script
       - name: Generate Hackatime badge
         env:
           UID: ${{ secrets.HACKATIME_UID }}
           SECRET: ${{ secrets.HACKATIME_SECRET }}
-        run: |
-          # your script here to fetch stats and output SVG
-          node scripts/generate-hackatime-badge.js
+        run: node scripts/generate-hackatime-badge.js
 
-      # Push SVG to repo (so README can use it)
+      # Push SVG to repo
       - name: Push Badge
         uses: ad-m/github-push-action@v0.6.0
         with:
