@@ -18,7 +18,7 @@ I *also* really enjoy:
 <table border="0" cellspacing="0" cellpadding="8" align="center">
 <tr valign="top">
 <td>
-  Some of my stats:
+  Some of my stats: <br />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayalh22&layout=compact&langs_count=6&hide_border=true&bg_color=202221&title_color=ffc80b&text_color=fafafa" />
 </td>
 <td>
