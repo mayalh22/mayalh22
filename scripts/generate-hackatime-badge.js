@@ -3,10 +3,11 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 
 const secret = process.env.HACKATIME_SECRET;
+const username = 'mayalh22'; // your Hackatime username
 
 (async () => {
   try {
-    const res = await fetch(`https://hackatime.hackclub.com/api/v1/users/current/stats`, {
+    const res = await fetch(`https://hackatime.hackclub.com/api/v1/users/${username}/stats`, {
       headers: { Authorization: `Bearer ${secret}` }
     });
     if (!res.ok) throw new Error(`Failed to fetch Hackatime stats: ${res.status}`);
