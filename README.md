@@ -10,9 +10,6 @@
     <td>
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayalh22&theme=radical&hide_border=true" />
     </td>
-    <td>
-      <!-- Hackatime stats -->
-<img src="./badges/hackatime.svg" alt="Hackatime Stats" />
-    </td>
+
   </tr>
 </table>
