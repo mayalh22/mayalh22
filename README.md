@@ -2,7 +2,7 @@
 
 ## Maya Hazarika
 
-I like to build things about creativity and technology!
+Hi! I'm Maya, and I like to build things about creativity and technology.
 
 I created [mayahazarika.com](https://mayahazarika.com) to share my work. Check it out if you want more details about me and/or what I'm up to!
 
