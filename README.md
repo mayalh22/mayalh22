@@ -7,10 +7,11 @@ I like to build things about creativity and technology.
 I created [mayahazarika.com](https://mayahazarika.com) to share my work!!!! Check it out if you want more details about me and what I'm up to.
 
 I also really enjoy:
-- biking: it's not warm often in MA, but when it is, I like listening to music and biking around
-- baking: esp. with oatmeal, coconut, pear. i am experimenting currently with popcorn flavored baked goods!
-- watching tv: specifically reality tv. Lmk if you are a fan of Survivor, Big Brother, The Traitors, or The Challenge
-- casual journalism!: checkout [my stuff for The Swellesley Report]([https://mayahazarika.com](https://theswellesleyreport.com/author/maya-hazarika/)) or some of my stuff on [medium]([https://mayahazarika.com](https://medium.com/@maya.l.hazarika))
+
+- **Biking:** It's not warm often in MA, but when it is, I like listening to music and biking around.  
+- **Baking:** Especially with oatmeal, coconut, and pear. I'm currently experimenting with popcorn-flavored baked goods!  
+- **Watching TV:** Specifically reality TV. Lmk if you are a fan of *Survivor*, *Big Brother*, *The Traitors*, or *The Challenge*.  
+- **Casual journalism!:** Check out [my work for The Swellesley Report](https://theswellesleyreport.com/author/maya-hazarika/) or some of my writing on [Medium](https://medium.com/@maya.l.hazarika).)
   
 <img src="https://raw.githubusercontent.com/mayalh22/mayalh22/master/assets/stripe.svg" width="100%" />
 
