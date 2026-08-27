@@ -17,9 +17,7 @@ I *also* really enjoy:
 
 <table border="0" cellspacing="0" cellpadding="8" align="center">
 <tr valign="top">
-
 </td>
-</tr>
 </table>
 Thanks for visiting my Github! Some of my favorite projects are below. Please please please reach out if you have anything to share/comment!
 <img src="https://raw.githubusercontent.com/mayalh22/mayalh22/master/assets/stripe.svg" width="100%" />
