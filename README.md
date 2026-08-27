@@ -18,8 +18,6 @@ I *also* really enjoy:
 <table border="0" cellspacing="0" cellpadding="8" align="center">
 <tr valign="top">
 
-<td>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mayalh22&theme=dark&hide_border=true&background=202221&ring=00712a&fire=f26522&currStreakLabel=ffc80b&sideLabels=fafafa&dates=aaaaaa&stroke=00000000" />
 </td>
 </tr>
 </table>
